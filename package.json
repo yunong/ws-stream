@@ -1,5 +1,5 @@
 {
-  "name": "ws-stream",
+  "name": "yws-stream",
   "version": "1.0.0",
   "description": "Node.js websocket stream",
   "main": "index.js",
