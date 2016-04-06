@@ -24,6 +24,8 @@
   },
   "homepage": "https://github.com/yunong/ws-stream#readme",
   "dependencies": {
+    "assert-plus": "^1.0.0",
+    "bunyan": "^1.8.0",
     "ws": "^1.0.1"
   },
   "devDependencies": {
