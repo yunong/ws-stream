@@ -1,0 +1,38 @@
+{
+  "name": "ws-stream",
+  "version": "1.0.0",
+  "description": "Node.js websocket stream",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yunong/ws-stream.git"
+  },
+  "keywords": [
+    "websocket",
+    "streams"
+  ],
+  "author": "Yunong J Xiao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yunong/ws-stream/issues"
+  },
+  "homepage": "https://github.com/yunong/ws-stream#readme",
+  "dependencies": {
+    "ws": "^1.0.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^2.7.0",
+    "istanbul": "^0.4.2",
+    "jscs": "^2.11.0",
+    "mocha": "^2.4.5",
+    "sinon": "^1.17.3",
+    "vasync": "^1.6.4"
+  }
+}
