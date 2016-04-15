@@ -48,7 +48,7 @@ var WSStream = function WSStream(opts) {
 
     self._ws.on('error', function onError(err) {
         self._log.error({err: err}, 'WSStream: got error');
-        self._emit('error', err);
+        self.emit('error', err);
     });
 
     self._ws.on('message', function incoming(msg, flags) {
